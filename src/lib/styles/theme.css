@@ -1,0 +1,24 @@
+/*
+ * Bliss Design System - UI Language Entry Point
+ * Base modules and derived stylesheets are imported from ./styles/
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+/* UI Language Base Modules */
+@import './tokens.css';
+@import './reset.css';
+@import './typography.css';
+@import './layout.css';
+@import './components.css';
+@import './code.css';
+@import './ambient.css';
+@import './sections.css';
+
+/* Derived Page & Component Styles */
+@import './derived/derived-home.css';
+@import './derived/derived-navbars.css';
+@import './derived/derived-docs.css';
+@import './derived/derived-blog.css';
+@import './derived/derived-notfound.css';
+@import './derived/derived-footer.css';

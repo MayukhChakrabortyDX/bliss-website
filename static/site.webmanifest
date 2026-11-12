@@ -1,0 +1,17 @@
+{
+	"name": "Bliss Programming Language",
+	"short_name": "Bliss",
+	"description": "Bliss is a compiled, statically typed systems programming language with lexical ownership verification, algebraic types, progressive compiler diagnostics, and LLVM native code generation.",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#fafafa",
+	"theme_color": "#fafafa",
+	"icons": [
+		{
+			"src": "/logo.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "any"
+		}
+	]
+}
